@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #16213e; /* Dark blue background */
+  color: white; /* White text for better contrast */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+.crypto-table,
+.portfolio-table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #16213e; /* Darker blue for tables */
+  color: white; /* White text for tables */
+}
+
+.crypto-table thead,
+.portfolio-table thead {
+  background-color: #0f3460; /* Dark blue for table headers */
+  color: white;
+}
+
+.crypto-table tbody tr:nth-of-type(odd),
+.portfolio-table tbody tr:nth-of-type(odd) {
+  background-color: #1a1a2e;
+}
+
+.crypto-table th,
+.crypto-table td,
+.portfolio-table th,
+.portfolio-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.positive-change {
+  color: #4caf50; 
+}
+
+.negative-change {
+  color: #f44336; 
+}
+
+button {
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0f3460; /* Darker blue on hover */
+}
+
+h1, h2 {
+  color: white; /* White text for headings */
+}
+
+p {
+  color: white; /* White text for paragraphs */
+}
+
+.crypto-table th {
+  cursor: pointer; /* Make headers clickable */
+  user-select: none; /* Prevent text selection */
+}
+
+.crypto-table th:hover {
+  background-color: #0f3460; /* Highlight on hover */
+}
